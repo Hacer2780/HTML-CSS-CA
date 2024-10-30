@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #96CEB4;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+hr {
+  border: 1px solid ;
+}
+/* Header */
+header {
+  background-color: #FFAD60;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.logo img {
+  height: 60px;
+
+}
+.header-icons a {
+  margin-left: 15px;
+}
+.header-icons img {
+  filter: grayscale(50%);
+  transition: filter 0.3s;
+}
+.header-bottom {
+  background-color: #FFEEAD;
+  border-radius: 20px;
+}
+.header-bottom nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+.header-bottom nav ul li a {
+  color: black;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.header-bottom nav ul li a:hover {
+  color: #608BC1;
+  border-bottom: 2px solid #608BC1;
+}
+/* Footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #A66E38;
+  color: black
+  
+
+}
+.footer-colon {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+  text-align: center;
+}
+footer h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: black;
+}
+.footer-colon a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin: 5px 0;
+
+}
+footer a:hover {
+  color: aqua;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-icons a {
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #608BC1;
+} 
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-top {
+    padding: 5px 10px;
+  }
+  .header-bottom nav ul {
+    gap: 15px
+  }
+  footer {
+    padding: 10px;
+  }
+  footer h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px ) {
+  .header-bottom nav ul {
+    gap: 10px;
+  }
+  footer {
+    padding: 5px;
+  }
+  footer h3 {
+    font-size: 12px;
+  }
+  footer a {
+    font-size: 12px;
+  }
+}
+

@@ -1,0 +1,56 @@
+/* about.css */
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+.story-section {
+    padding: 30px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.story-section h2 {
+    font-size: 2.2rem;
+    color: #73777B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.text {
+    max-width: 50%;
+    color: #333;
+}
+.text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0 0 15px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.images figure {
+    margin: 0;
+    text-align: center;
+}
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
