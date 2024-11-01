@@ -12,7 +12,7 @@ container {
 }
 
 .product-card {
-  background-color: #D4F6FF; 
+  background-color:  #F7EED3; 
   border: 1px solid black;
   border-radius: 20px; 
   padding: 15px; 
@@ -42,7 +42,7 @@ container {
 
 
 .button {
-  background-color: #333; 
+  background-color: black; 
   color: #fff; 
   border: none;
   padding: 10px 20px; 
@@ -55,7 +55,7 @@ container {
   background-color: #555; 
 }
 .menu-list {
-  background-color: #D4F6FF;
+  background-color:  #AAB396;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
