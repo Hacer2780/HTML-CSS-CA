@@ -37,6 +37,9 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
+section h3 {
+    text-align: center;
+}
 button {
     padding: 10px 15px;
     background-color: #007bff;
@@ -71,7 +74,7 @@ button:hover {
     width: 100%;
     border-radius: 5px;
 }
-/* Responsive Tasarim */
+/* Responsive */
 @media (max-width:768px) {
   .contact-container {
     flex-direction: column;
