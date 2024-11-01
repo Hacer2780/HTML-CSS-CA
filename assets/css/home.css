@@ -5,17 +5,18 @@ container {
 
 .products {
   display: flex; 
-  /* flex-wrap: wrap;  */
+  flex-wrap: wrap; 
   justify-content: space-between; 
   margin-top: 50px; 
+  gap: 20px;
 }
 
 .product-card {
-  background-color: #FFEEAD; 
+  background-color: #D4F6FF; 
   border: 1px solid black;
   border-radius: 20px; 
   padding: 15px; 
-  width: 46%; 
+  width: 45%; 
   margin-bottom: 20px; 
   text-align: center; 
   transition: transform 0.3s; 
@@ -31,7 +32,7 @@ container {
 
 
 .product-card:hover {
-  transform: scale(1.05); 
+  transform: scale(1.01); 
 }
 
 
@@ -54,7 +55,7 @@ container {
   background-color: #555; 
 }
 .menu-list {
-  background-color: #FFEEAD;
+  background-color: #D4F6FF;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -67,7 +68,7 @@ container {
   margin-bottom: 10px;
 }
 .menu-list ul li a {
-  color: #333;
+  color: black;
   font-weight: bold;
   font-size: 1.1em;
 }
@@ -79,7 +80,7 @@ container {
 }
 @media (max-width: 768px) {
   .product-card {
-      width: calc(100% - 20px);
+      width: 100%;
   }
 }
 
